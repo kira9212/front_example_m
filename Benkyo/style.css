@@ -1,0 +1,35 @@
+.header {
+    height: 40px;
+    color: black;
+    width: 980px;
+    margin: 0 auto;
+}
+
+.menu {
+    margin: 20px auto;
+    margin-bottom: 0;
+}
+
+.menu::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.menu li {
+    float: left;
+    margin-left: 15px;
+    /* font-weight: bold; */
+}
+
+.contents {
+    height: 70vh;
+    background-image: url(Apple.jpg);
+    width: 100%;
+    background-position: center;
+}
+
+.footer {
+    height: 15vh;
+    background-color: orange;
+}
